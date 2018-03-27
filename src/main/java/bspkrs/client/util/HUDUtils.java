@@ -223,7 +223,7 @@ public final class HUDUtils
                     String var6 = "" + count;
                     GL11.glDisable(GL11.GL_LIGHTING);
                     GL11.glDisable(GL11.GL_DEPTH_TEST);
-                    fontRenderer.drawStringWithShadow(var6, x + 19 - 2 - fontRenderer.getStringWidth(var6), y + 6 + 3, 16777215);
+                    fontRenderer.drawString(var6, x + 19 - 2 - fontRenderer.getStringWidth(var6), y + 6 + 3, 16777215); // drawStringWithShadow -> drawString
                     GL11.glEnable(GL11.GL_LIGHTING);
                     GL11.glEnable(GL11.GL_DEPTH_TEST);
                 }

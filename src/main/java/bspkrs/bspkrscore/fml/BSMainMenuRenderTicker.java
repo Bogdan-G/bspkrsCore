@@ -60,7 +60,7 @@ public class BSMainMenuRenderTicker
     private static ItemStack[]                     playerItems;
     private static ItemStack[]                     zombieItems;
     private static ItemStack[]                     skelItems;
-    private static Random                          random       = new Random();
+    private static Random                          random       = new org.bogdang.modifications.random.XSTR();
 
     private static Set                             entities;
     private static Object[]                        entStrings;

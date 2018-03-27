@@ -220,7 +220,7 @@ public class EntityUtils
             List blacklist, int numberOfAttempts,
             List<SimpleEntry<UUID, String>> fallbackPlayerNames)
     {
-        Random random = new Random();
+        Random random = new org.bogdang.modifications.random.XSTR();
         // Get a COPY dumbass!
         Set entities = new TreeSet(EntityList.stringToClassMapping.keySet());
 
